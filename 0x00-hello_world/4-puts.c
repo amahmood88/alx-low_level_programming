@@ -1,5 +1,8 @@
 #include <stdio.h>
-/* This is the entry point to the program */
+/** 
+ * main: prints "Programming is like building a multilingual puzzle
+ * return: 0 if successful, non-zero otherwise
+ */
 int main(void)
 {
 	puts("\"Programming is like building a multilingual puzzle");

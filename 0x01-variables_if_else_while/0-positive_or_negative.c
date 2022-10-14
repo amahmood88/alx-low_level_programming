@@ -1,6 +1,7 @@
 #include <stdlib.h>
 #include <time.h>
 /* more headers goes there */
+#include <stdio.h>
 /**
  *main - checks if n is +ve, 0 or -ve
  *Return: 0 if successful, non-zero otherwise

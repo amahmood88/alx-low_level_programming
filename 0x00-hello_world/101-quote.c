@@ -2,11 +2,10 @@
 
 /**
  *main - prints out a phrase to stderr
- * return: 0 if successful, non-zero otherwise
+ * return: ensures a return value of 1
  */
 int main(void)
 {
-	printf(stderr, "and that piece of art is useful" - Dora Korper, \
-			2015 - 10 - 19);
-	return (0);
+	printf("and that piece of art is useful\" - Dora Korper, 2015 - 10 - 19\n");
+	return (1);
 }

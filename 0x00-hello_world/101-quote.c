@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
 *main - entry point to use printf.
-*return: ensures main returns a value of 1.
+*Return: ensures main returns a value of 1.
 */
 int main(void)
 {

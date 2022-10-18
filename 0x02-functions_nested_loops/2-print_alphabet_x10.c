@@ -3,11 +3,11 @@
 /**
  * print_alphabet - prints the alphabet, in lowercase, followed by a new line
  */
-void print_alphabet(void)
+void print_alphabet_x10(void)
 {
 	char ch;
-	int len;
-	for (len=0; len<10; len++)
+	int len = 0;
+	while (len < 10)
 	{
 		
 		ch = 'a';

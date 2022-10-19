@@ -2,7 +2,9 @@
 #define _MAIN_H_
 
 /*
- *Function prototypes
+ * Structs. enums and unions definition.
+ * Typedefs
+ * Function prototypes
  */
 
 int largest_number(int, int, int);

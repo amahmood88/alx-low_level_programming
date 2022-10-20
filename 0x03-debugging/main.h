@@ -1,14 +1,9 @@
-#ifndef _MAIN_H_
-#define _MAIN_H_
+#ifndef MAIN_H
+#define MAIN_H
 
-/*
- * Structs. enums and unions definition.
- * Typedefs
- * Function prototypes
- */
-
+void positive_or_negative(int);
 int largest_number(int, int, int);
+int convert_day(int, int);
 void print_remaining_days(int, int, int);
 
-#endif /* _MAIN_H_ */
-
+#endif /* MAIN_H */

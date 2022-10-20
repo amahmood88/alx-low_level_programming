@@ -1,13 +1,16 @@
-#include <stdio.h>
+#include <stdio.h>i
+#include "main.h"
+
 /**
-  * fizz_buzz - prints fizz/buzz/fizzbuzz for multiples of 3/5/15 respectively
-  *@n: number range
+  * main - prints fizz/buzz/fizzbuzz for multiples of 3/5/15 respectively
+  *Return: 0 always
   */
-void fizz_buzz(int n)
+
+int main(void)
 {
 	int i;
 
-	for (i = 1; i <= n; i++)
+	for (i = 1; i <= 100; i++)
 	{
 		if (i % 15 == 0)
 		{
@@ -30,4 +33,5 @@ void fizz_buzz(int n)
 		}
 	}
 	_putchar('\n');
+	return (0);
 }

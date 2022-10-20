@@ -8,6 +8,7 @@
  */
 
 int largest_number(int, int, int);
+void print_remaining_days(int, int, int);
 
 #endif /* _MAIN_H_ */
 

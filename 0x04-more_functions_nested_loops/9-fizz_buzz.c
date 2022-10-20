@@ -1,4 +1,4 @@
-#include <stdio.h>i
+#include <stdio.h>
 #include "main.h"
 
 /**
@@ -32,6 +32,6 @@ int main(void)
 			printf(" ");
 		}
 	}
-	_putchar('\n');
+	printf("\n");
 	return (0);
 }

@@ -1,15 +1,9 @@
-#ifndef _MAIN_H
-#define _MAIN_H
+#ifndef _MAIN_H_
+#define _MAIN_H_
 
-/**
-  * header files
-  */
 #include <stdio.h>
 
 
-/**
-  * Function prototypes
-  */
-void reset_to_98(int*);
+void reset_to_98(int *n);
 
-#endif
+#endif /* _MAIN_H_ */

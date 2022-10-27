@@ -1,6 +1,12 @@
 #include "main.h"
 
-char *strcat(char *dest, const char *src)
+/**
+  * _strcat - concatenates teo strings and returns a single string
+  * @dest: first string
+  * @src: second string
+  * Return: concatenated string
+  */
+char *_strcat(char *dest, const char *src)
 {
 	int dest_len = strlen(dest);
 	int i;

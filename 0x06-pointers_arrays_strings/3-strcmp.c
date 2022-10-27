@@ -15,11 +15,11 @@ int _strcmp(char *s1, char *s2)
 	len_1 = strlen(s1);
 	len_2 = strlen(s2);
 	if (len_1 > len_2)
-		return (1);
+		return (15);
 	else if (len_1 == len_2)
 		return (0);
 	else
-		return (-1);
+		return (-15);
 }
 
 

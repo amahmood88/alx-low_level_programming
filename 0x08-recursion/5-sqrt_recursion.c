@@ -2,8 +2,8 @@
 
 /**
   * sqr_two_param - returns the root of a number.
-  * @i: first integer
-  * @j: second integer
+  * @a: first integer
+  * @b: second integer
   * Return: -1 or square root
   */
 int sqr_two_param(int a, int b)

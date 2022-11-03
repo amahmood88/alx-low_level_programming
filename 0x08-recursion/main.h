@@ -11,5 +11,8 @@ void _print_rev_recursion(char *s);
 int _strlen_recursion(char *s);
 int _sqrt_recursion(int n);
 int sqr_two_param(int a, int b);
+int is_prime_number(int n);
+int prime_checker(int i, int j);
+
 
 #endif /* MAIN_H_ */

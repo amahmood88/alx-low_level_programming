@@ -1,21 +1,23 @@
-#ifndef _DOG_H_
-#define _DOG_H_
-
+#ifndef _DOG_
+#define _DOG_
 /**
-  * struct dog - create a structure with three properties
-  * @name: name of dog
-  * @age: age of dog
-  * @owner: owner of dog
-  *
-  * Description: contains the bio data of a dog
-  */
-typedef struct dog
+ * dog_t - Typedef for struct dog
+ */
+typedef struct dog dog_t;
+/**
+ * struct dog - struct for storing dog information
+ * @name: dog name
+ * @age: dog age
+ * @owner: dog owner
+ *
+ * Description: dog struct stores its name, age, and owner details
+ */
+struct dog
 {
 	char *name;
 	float age;
 	char *owner;
-} dog;
-
+};
 void init_dog(struct dog *d, char *name, float age, char *owner);
 void print_dog(struct dog *d);
 dog_t *new_dog(char *name, float age, char *owner);
